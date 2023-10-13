@@ -100,8 +100,7 @@ OBS: É necessário executar a aplicação para acessar o banco de dados por mei
 
 # Executar localmente
 
-Realizar o comando `mvn spring-boot:run`
-Acessar `TodolistApplication.java`e clicar em run
+Realizar o comando `mvn spring-boot:run` ou acessar o arquivo `TodolistApplication.java`e clicar em run
 
 Ou...
 
