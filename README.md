@@ -49,7 +49,7 @@ O arquivo POM (Project Object Model) do Maven (pom.xml), é utilizado para geren
 5. **[lombok](https://projectlombok.org/setup/maven):**
    - Descrição: É uma biblioteca do Java que ajuda a reduzir a verbosidade do código Java, fornecendo anotações para gerar automaticamente código repetitivo, como getters, setters, construtores, etc.
 
-6. **spring-boot-starter-actuator:**
+6. **spring-boot-starter-actuator (inclusão automática):**
    - Descrição: Fornece endpoints que permitem monitorar e interagir com um aplicativo Spring Boot.
 
 7. **spring-boot-starter-web: (Dependência `Spring Web` selecionada no spring.io)**
