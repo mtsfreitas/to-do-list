@@ -111,6 +111,7 @@ Realizar comando no terminal:
 Ou...
 
 Clicar em debug em `JAVA PROJECTS`
+
 ![Screenshot 2023-10-13 at 15 26 03](https://github.com/mtsfreitas/to-do-list/assets/21324690/184b2939-ca68-4a21-b4a4-e356fac403e7)
 
 
