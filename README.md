@@ -36,7 +36,7 @@ O arquivo POM (Project Object Model) do Maven (pom.xml), é utilizado para geren
    - Descrição: Fornece ferramentas de desenvolvimento que são úteis durante o desenvolvimento. Ele permite que o aplicativo reinicie automaticamente quando os arquivos no classpath mudam.
    - `optional: true`: Isso indica que a dependência é opcional.
 
-2. **bcrypt:**
+2. **[bcrypt](https://github.com/patrickfav/bcrypt):**
    - Descrição: É uma biblioteca de criptografia de senha que implementa o algoritmo bcrypt para hashing de senhas.
    - `version: 0.10.2`: Indica a versão específica da dependência a ser utilizada.
 
