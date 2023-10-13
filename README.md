@@ -101,6 +101,17 @@ OBS: É necessário executar a aplicação para acessar o banco de dados por mei
 # Deploy 
 Foi utilizado a plataforma [Render](https://dashboard.render.com) para realizar o deploy da aplicação
 
+## Escolha Web Service
+Selecione `Build and deploy from a Git repository`
+
+![Screenshot 2023-10-13 at 15 06 39](https://github.com/mtsfreitas/to-do-list/assets/21324690/604ae3f0-e32d-434b-aebb-ae15f5aca8cb)
+
+Configure o runtime para `Docker`
+
+![Screenshot 2023-10-13 at 15 08 35](https://github.com/mtsfreitas/to-do-list/assets/21324690/67821779-9a5b-42c4-949f-1680001571fc)
+
+Em execução:
+
 ![Screenshot 2023-10-13 at 14 15 07](https://github.com/mtsfreitas/to-do-list/assets/21324690/b12c5bac-8512-4100-875d-4d7776bf5e90)
 
 Exemplo de utilização da plataforma após executar o deploy:
