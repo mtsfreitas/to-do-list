@@ -106,7 +106,7 @@ Ou...
 
 Realizar comando no terminal:
 
-java -jar target/todolist-1.0.0.jar 
+`java -jar target/todolist-1.0.0.jar`
 
 Ou...
 
