@@ -46,7 +46,7 @@ O arquivo POM (Project Object Model) do Maven (pom.xml), é utilizado para geren
 4. **h2:**
    - Descrição: É um banco de dados SQL em memória escrito em Java. É frequentemente utilizado para desenvolvimento, testes e prototipagem.
 
-5. **lombok:**
+5. **[lombok](https://projectlombok.org/setup/maven):**
    - Descrição: É uma biblioteca do Java que ajuda a reduzir a verbosidade do código Java, fornecendo anotações para gerar automaticamente código repetitivo, como getters, setters, construtores, etc.
 
 6. **spring-boot-starter-actuator:**
