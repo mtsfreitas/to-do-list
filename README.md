@@ -60,7 +60,7 @@ O arquivo POM (Project Object Model) do Maven (pom.xml), é utilizado para geren
 
 Além disso, a seção `build` contém a configuração do plugin Maven que permite a execução do aplicativo Spring Boot por meio do Maven. O `spring-boot-maven-plugin` é responsável por empacotar e executar o aplicativo Spring Boot.
 
-# Estruturando o projeto utilizando Maven com Spring Boot
+# Estruturando o projeto utilizando Maven com Spring Boot 3.0.11
 
 1 - https://start.spring.io (mais intuitivo)
 
