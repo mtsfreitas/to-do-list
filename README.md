@@ -60,29 +60,6 @@ O arquivo POM (Project Object Model) do Maven (pom.xml), é utilizado para geren
 
 Além disso, a seção `build` contém a configuração do plugin Maven que permite a execução do aplicativo Spring Boot por meio do Maven. O `spring-boot-maven-plugin` é responsável por empacotar e executar o aplicativo Spring Boot.
 
-# Banco de dados
-
-* No arquivo `application.properties` insira:
-
-```tsx
-spring.datasource.url=jdbc:h2:mem:todolist
-spring.datasource.driverClassName=org.h2.Driver
-spring.datasource.username=admin
-spring.datasource.password=admin
-spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-spring.h2.console.enabled=true
-```
-
-OBS: É necessário executar a aplicação para acessar o banco de dados por meio da url: http://localhost:8080/h2-console ou https://todolist-0ntd.onrender.com/h2-console
-
-# Deploy 
-Foi utilizado a plataforma [Render](https://dashboard.render.com) para realizar o deploy da aplicação
-
-![Screenshot 2023-10-13 at 14 15 07](https://github.com/mtsfreitas/to-do-list/assets/21324690/b12c5bac-8512-4100-875d-4d7776bf5e90)
-
-Exemplo de utilização da plataforma após executar o deploy:
-* Utilizar https://todolist-0ntd.onrender.com/users/ ao invés de: http://localhost:8080/users/
-
 # Estruturando o projeto com Spring Boot
 
 1 - https://start.spring.io (mais intuitivo)
@@ -106,4 +83,26 @@ Ou...
 
 3 - Utilizar o Spring Initializr: Create a Maven Project no VSCode
 
+# Banco de dados
+
+* No arquivo `application.properties` insira:
+
+```tsx
+spring.datasource.url=jdbc:h2:mem:todolist
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=admin
+spring.datasource.password=admin
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled=true
+```
+
+OBS: É necessário executar a aplicação para acessar o banco de dados por meio da url: http://localhost:8080/h2-console ou https://todolist-0ntd.onrender.com/h2-console
+
+# Deploy 
+Foi utilizado a plataforma [Render](https://dashboard.render.com) para realizar o deploy da aplicação
+
+![Screenshot 2023-10-13 at 14 15 07](https://github.com/mtsfreitas/to-do-list/assets/21324690/b12c5bac-8512-4100-875d-4d7776bf5e90)
+
+Exemplo de utilização da plataforma após executar o deploy:
+* Utilizar https://todolist-0ntd.onrender.com/users/ ao invés de: http://localhost:8080/users/
 
