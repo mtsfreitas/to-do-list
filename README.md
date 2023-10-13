@@ -52,10 +52,10 @@ O arquivo POM (Project Object Model) do Maven (pom.xml), é utilizado para geren
 6. **spring-boot-starter-actuator:**
    - Descrição: Fornece endpoints que permitem monitorar e interagir com um aplicativo Spring Boot.
 
-7. **spring-boot-starter-web:**
+7. **spring-boot-starter-web: (Dependência `Spring Web` selecionada no spring.io)**
    - Descrição: Fornece suporte para aplicativos da web, incluindo bibliotecas para criar APIs RESTful usando o Spring MVC.
 
-8. **spring-boot-starter-test:**
+8. **spring-boot-starter-test (Dependência `Spring Web` selecionada no spring.io):**
    - Descrição: Fornece suporte para testes, incluindo bibliotecas para escrever e executar testes automatizados em aplicativos Spring Boot.
 
 Além disso, a seção `build` contém a configuração do plugin Maven que permite a execução do aplicativo Spring Boot por meio do Maven. O `spring-boot-maven-plugin` é responsável por empacotar e executar o aplicativo Spring Boot.
