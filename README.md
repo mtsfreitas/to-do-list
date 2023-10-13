@@ -82,6 +82,9 @@ Adicionar dependência "Spring Web"
 ![Screenshot 2023-10-13 at 14 36 55](https://github.com/mtsfreitas/to-do-list/assets/21324690/ea934738-8fa2-4e20-8f4c-e88ec6d3c702)
 
 * Clicar em generate
+
+![Screenshot 2023-10-13 at 14 44 32](https://github.com/mtsfreitas/to-do-list/assets/21324690/0dd49839-3bfe-40f0-9c87-5a0852058b98)
+
 * Descompactar o todolist.zip gerado
 * Abrir a pasta todolist no VSCode
 
