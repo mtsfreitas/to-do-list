@@ -64,7 +64,7 @@ Além disso, a seção `build` contém a configuração do plugin Maven que perm
 
 1 - https://start.spring.io (mais intuitivo)
 
-![Screenshot 2023-10-13 at 14 32 44](https://github.com/mtsfreitas/to-do-list/assets/21324690/1b3d9d57-8c98-4a48-bd0f-c329a0376f9e)
+![Screenshot 2023-10-13 at 15 32 54](https://github.com/mtsfreitas/to-do-list/assets/21324690/fd15794e-1ddd-43c0-a671-4898274b602b)
 
 Adicionar dependência "Spring Web"
 
