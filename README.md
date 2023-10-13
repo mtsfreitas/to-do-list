@@ -71,4 +71,20 @@ Foi utilizado a plataforma [Render](https://dashboard.render.com) para realizar 
 Exemplo de utilização da plataforma após executar o deploy:
 * Utilizar https://todolist-0ntd.onrender.com/users/ ao invés de: http://localhost:8080/users/
 
+# Estruturando o projeto com Spring Boot
+
+1 - https://start.spring.io (mais intuitivo)
+![Screenshot 2023-10-13 at 14 32 44](https://github.com/mtsfreitas/to-do-list/assets/21324690/1b3d9d57-8c98-4a48-bd0f-c329a0376f9e)
+
+Adicionar dependência "Spring Web"
+![Screenshot 2023-10-13 at 14 36 55](https://github.com/mtsfreitas/to-do-list/assets/21324690/ea934738-8fa2-4e20-8f4c-e88ec6d3c702)
+
+* Clicar em generate
+* Descompactar o todolist.zip gerado
+* Abrir a pasta todolist no VSCode
+
+Ou...
+2 - Utilizar o terminal com comandos Maven Archetypes (https://maven.apache.org/archetypes/index.html)
+3 - Utilizar o Spring Initializr: Create a Maven Project no VSCode
+
 
