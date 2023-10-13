@@ -30,7 +30,7 @@ Algumas opções de ferramentas para requisições REST:
 * [Postman](https://www.postman.com/downloads/)
 
 ## Dependências do projeto
-O arquivo POM (Project Object Model) do Maven (pom.xml), é utilizado para gerenciar projetos Java. Ele descreve o projeto e suas dependências.
+O arquivo POM (Project Object Model) do Maven (pom.xml), é utilizado para gerenciar projetos Java. Ele descreve o projeto e suas dependências. Segue abaixo o que foi utilizado:
 
 1. **[spring-boot-devtools](https://docs.spring.io/spring-boot/docs/1.5.16.RELEASE/reference/html/using-boot-devtools.html):** 
    - Descrição: Fornece ferramentas de desenvolvimento que são úteis durante o desenvolvimento. Ele permite que o aplicativo reinicie automaticamente quando os arquivos no classpath mudam.
