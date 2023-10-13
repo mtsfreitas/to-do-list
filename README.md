@@ -74,9 +74,11 @@ Exemplo de utilização da plataforma após executar o deploy:
 # Estruturando o projeto com Spring Boot
 
 1 - https://start.spring.io (mais intuitivo)
+
 ![Screenshot 2023-10-13 at 14 32 44](https://github.com/mtsfreitas/to-do-list/assets/21324690/1b3d9d57-8c98-4a48-bd0f-c329a0376f9e)
 
 Adicionar dependência "Spring Web"
+
 ![Screenshot 2023-10-13 at 14 36 55](https://github.com/mtsfreitas/to-do-list/assets/21324690/ea934738-8fa2-4e20-8f4c-e88ec6d3c702)
 
 * Clicar em generate
@@ -84,7 +86,9 @@ Adicionar dependência "Spring Web"
 * Abrir a pasta todolist no VSCode
 
 Ou...
+
 2 - Utilizar o terminal com comandos Maven Archetypes (https://maven.apache.org/archetypes/index.html)
+
 3 - Utilizar o Spring Initializr: Create a Maven Project no VSCode
 
 
