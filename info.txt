@@ -1,0 +1,10 @@
+  /**
+     * Métodos de acesso do HTTP
+     * GET - buscar uma informacao
+     * POST - Adicionar um dado/informacao
+     * PUT - alterar um dado/info
+     * DELETE - remover um dado
+     * PATCH - alterar somente uma parte da info/dado
+     */
+
+https://start.spring.io

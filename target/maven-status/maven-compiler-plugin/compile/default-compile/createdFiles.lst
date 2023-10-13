@@ -1,0 +1,10 @@
+br/com/matheus/todolist/filter/FilterTaskAuth.class
+br/com/matheus/todolist/user/UserController.class
+br/com/matheus/todolist/TodolistApplication.class
+br/com/matheus/todolist/user/IUserRepository.class
+br/com/matheus/todolist/utils/Utils.class
+br/com/matheus/todolist/task/TaskModel.class
+br/com/matheus/todolist/user/UserModel.class
+br/com/matheus/todolist/task/ITaskRepository.class
+br/com/matheus/todolist/errors/ExceptionHandlerController.class
+br/com/matheus/todolist/task/TaskController.class

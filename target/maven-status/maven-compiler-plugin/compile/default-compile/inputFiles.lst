@@ -1,0 +1,10 @@
+/Users/mts/Documents/Rocketseat/todolist/src/main/java/br/com/matheus/todolist/user/UserModel.java
+/Users/mts/Documents/Rocketseat/todolist/src/main/java/br/com/matheus/todolist/utils/Utils.java
+/Users/mts/Documents/Rocketseat/todolist/src/main/java/br/com/matheus/todolist/task/ITaskRepository.java
+/Users/mts/Documents/Rocketseat/todolist/src/main/java/br/com/matheus/todolist/errors/ExceptionHandlerController.java
+/Users/mts/Documents/Rocketseat/todolist/src/main/java/br/com/matheus/todolist/TodolistApplication.java
+/Users/mts/Documents/Rocketseat/todolist/src/main/java/br/com/matheus/todolist/user/IUserRepository.java
+/Users/mts/Documents/Rocketseat/todolist/src/main/java/br/com/matheus/todolist/task/TaskController.java
+/Users/mts/Documents/Rocketseat/todolist/src/main/java/br/com/matheus/todolist/filter/FilterTaskAuth.java
+/Users/mts/Documents/Rocketseat/todolist/src/main/java/br/com/matheus/todolist/user/UserController.java
+/Users/mts/Documents/Rocketseat/todolist/src/main/java/br/com/matheus/todolist/task/TaskModel.java
