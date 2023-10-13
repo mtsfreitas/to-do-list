@@ -61,7 +61,19 @@ O arquivo POM (Project Object Model) do Maven (pom.xml), é utilizado para geren
 Além disso, a seção `build` contém a configuração do plugin Maven que permite a execução do aplicativo Spring Boot por meio do Maven. O `spring-boot-maven-plugin` é responsável por empacotar e executar o aplicativo Spring Boot.
 
 # Banco de dados
-É necessário executar a aplicação para acessar o banco de dados por meio da url: http://localhost:8080/h2-console ou https://todolist-0ntd.onrender.com/h2-console
+
+* No arquivo `application.properties` insira:
+
+```tsx
+spring.datasource.url=jdbc:h2:mem:todolist
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=admin
+spring.datasource.password=admin
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled=true
+```
+
+OBS: É necessário executar a aplicação para acessar o banco de dados por meio da url: http://localhost:8080/h2-console ou https://todolist-0ntd.onrender.com/h2-console
 
 # Deploy 
 Foi utilizado a plataforma [Render](https://dashboard.render.com) para realizar o deploy da aplicação
