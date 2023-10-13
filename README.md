@@ -23,11 +23,11 @@ Para utilizar o Java no VSCode, é necessário instalar as extensões abaixo
 ## Rest Client
 Algumas opções de ferramentas para requisições REST:
 
-[API Dog](https://apidog.com/download/)
+* [API Dog](https://apidog.com/download/)
 
-[Insomnia](https://insomnia.rest/download)
+* [Insomnia](https://insomnia.rest/download)
 
-[Postman](https://www.postman.com/downloads/)
+* [Postman](https://www.postman.com/downloads/)
 
 ## Dependências do projeto
 O arquivo POM (Project Object Model) do Maven (pom.xml), é utilizado para gerenciar projetos Java. Ele descreve o projeto e suas dependências.
