@@ -23,7 +23,7 @@ Para utilizar o Java no VSCode, é necessário instalar as extensões abaixo
 ## Dependências do projeto
 O arquivo POM (Project Object Model) do Maven (pom.xml), é utilizado para gerenciar projetos Java. Ele descreve o projeto e suas dependências.
 
-1. **spring-boot-devtools:**
+1. **[spring-boot-devtools](https://docs.spring.io/spring-boot/docs/1.5.16.RELEASE/reference/html/using-boot-devtools.html):** 
    - Descrição: Fornece ferramentas de desenvolvimento que são úteis durante o desenvolvimento. Ele permite que o aplicativo reinicie automaticamente quando os arquivos no classpath mudam.
    - `optional: true`: Isso indica que a dependência é opcional.
 
@@ -50,3 +50,16 @@ O arquivo POM (Project Object Model) do Maven (pom.xml), é utilizado para geren
    - Descrição: Fornece suporte para testes, incluindo bibliotecas para escrever e executar testes automatizados em aplicativos Spring Boot.
 
 Além disso, a seção `build` contém a configuração do plugin Maven que permite a execução do aplicativo Spring Boot por meio do Maven. O `spring-boot-maven-plugin` é responsável por empacotar e executar o aplicativo Spring Boot.
+
+# Banco de dados
+É necessário executar a aplicação para acessar o banco de dados por meio da url: http://localhost:8080/h2-console ou https://todolist-0ntd.onrender.com/h2-console
+
+# Deploy 
+Foi utilizado a plataforma [Render](https://dashboard.render.com) para realizar o deploy da aplicação
+
+![Screenshot 2023-10-13 at 14 15 07](https://github.com/mtsfreitas/to-do-list/assets/21324690/b12c5bac-8512-4100-875d-4d7776bf5e90)
+
+Exemplo de utilização da plataforma após executar o deploy:
+* Utilizar https://todolist-0ntd.onrender.com/users/ ao invés de: http://localhost:8080/users/
+
+
