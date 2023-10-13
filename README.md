@@ -81,6 +81,8 @@ Ou...
 
 2 - Utilizar o terminal com comandos Maven Archetypes (https://maven.apache.org/archetypes/index.html)
 
+Ou...
+
 3 - Utilizar o Spring Initializr: Create a Maven Project no VSCode
 
 # Banco de dados
