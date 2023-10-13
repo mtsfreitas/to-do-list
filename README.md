@@ -40,10 +40,10 @@ O arquivo POM (Project Object Model) do Maven (pom.xml), é utilizado para geren
    - Descrição: É uma biblioteca de criptografia de senha que implementa o algoritmo bcrypt para hashing de senhas.
    - `version: 0.10.2`: Indica a versão específica da dependência a ser utilizada.
 
-3. **spring-boot-starter-data-jpa:**
+3. **[spring-boot-starter-data-jpa](https://spring.io/projects/spring-data-jpa):**
    - Descrição: Fornece suporte para a camada de persistência, facilitando o acesso e a manipulação de dados utilizando o Java Persistence API (JPA) em aplicativos Spring Boot.
    
-4. **h2:**
+4. **[h2](http://h2database.com/html/main.html):**
    - Descrição: É um banco de dados SQL em memória escrito em Java. É frequentemente utilizado para desenvolvimento, testes e prototipagem.
 
 5. **[lombok](https://projectlombok.org/setup/maven):**
