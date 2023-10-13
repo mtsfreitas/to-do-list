@@ -1,1 +1,52 @@
 # to-do-list
+
+
+## Configurando o ambiente 
+
+* [Java 17](https://download.oracle.com/java/17/archive/jdk-17.0.3.1_macos-x64_bin.dmg)
+* [Maven](https://dlcdn.apache.org/maven/maven-3/3.9.5/binaries/apache-maven-3.9.5-bin.tar.gz) ou [acesse essa página](https://maven.apache.org/download.cgi) e realize o download da versão mais recente do `Binary tar.gz archive`.
+
+## Configuração Java no VS Code
+
+Para utilizar o Java no VSCode, é necessário instalar as extensões abaixo
+
+- **vscjava.vscode-java-pack**
+    - vscjava.vscode-java-debug
+    - vscjava.vscode-java-test
+    - vscjava.vscode-java-dependency
+    - vscjava.vscode-maven
+    - redhat.java
+- **vscjava.vscode-spring-initializr**
+- **vmware.vscode-spring-boot**
+- **vscjava.vscode-spring-boot-dashboard**
+
+## Dependências do projeto
+O arquivo POM (Project Object Model) do Maven (pom.xml), é utilizado para gerenciar projetos Java. Ele descreve o projeto e suas dependências.
+
+1. **spring-boot-devtools:**
+   - Descrição: Fornece ferramentas de desenvolvimento que são úteis durante o desenvolvimento. Ele permite que o aplicativo reinicie automaticamente quando os arquivos no classpath mudam.
+   - `optional: true`: Isso indica que a dependência é opcional.
+
+2. **bcrypt:**
+   - Descrição: É uma biblioteca de criptografia de senha que implementa o algoritmo bcrypt para hashing de senhas.
+   - `version: 0.10.2`: Indica a versão específica da dependência a ser utilizada.
+
+3. **spring-boot-starter-data-jpa:**
+   - Descrição: Fornece suporte para a camada de persistência, facilitando o acesso e a manipulação de dados utilizando o Java Persistence API (JPA) em aplicativos Spring Boot.
+   
+4. **h2:**
+   - Descrição: É um banco de dados SQL em memória escrito em Java. É frequentemente utilizado para desenvolvimento, testes e prototipagem.
+
+5. **lombok:**
+   - Descrição: É uma biblioteca do Java que ajuda a reduzir a verbosidade do código Java, fornecendo anotações para gerar automaticamente código repetitivo, como getters, setters, construtores, etc.
+
+6. **spring-boot-starter-actuator:**
+   - Descrição: Fornece endpoints que permitem monitorar e interagir com um aplicativo Spring Boot.
+
+7. **spring-boot-starter-web:**
+   - Descrição: Fornece suporte para aplicativos da web, incluindo bibliotecas para criar APIs RESTful usando o Spring MVC.
+
+8. **spring-boot-starter-test:**
+   - Descrição: Fornece suporte para testes, incluindo bibliotecas para escrever e executar testes automatizados em aplicativos Spring Boot.
+
+Além disso, a seção `build` contém a configuração do plugin Maven que permite a execução do aplicativo Spring Boot por meio do Maven. O `spring-boot-maven-plugin` é responsável por empacotar e executar o aplicativo Spring Boot.
