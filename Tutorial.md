@@ -227,5 +227,7 @@ Recomendamos que você deixe a opção `compact folders` do VS Code `desmarcada`
         
 2. Na barra de pesquisa, pesquise por `compact folders` e `Desmarque` essa opção, dessa forma o explorador de arquivos ficará no modelo de árvore e você terá uma melhor visualização das pastas do projeto.
 
-# Reference: https://efficient-sloth-d85.notion.site/Curso-de-Java-2408d11bfc3447e980fe9460b6293976
+# Reference: 
+
+https://efficient-sloth-d85.notion.site/Curso-de-Java-2408d11bfc3447e980fe9460b6293976
 
