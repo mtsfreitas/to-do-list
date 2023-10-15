@@ -181,3 +181,51 @@ Java version: 17.0.3.1, vendor: Oracle Corporation, runtime: /Library/Java/JavaV
 Default locale: pt_BR, platform encoding: UTF-8
 OS name: "mac os x", version: "14.0", arch: "x86_64", family: "mac"
 ```
+
+# Rest Client
+
+Nessa documentação temos algumas opções de ferramentas para requisições REST
+
+[API Dog](https://apidog.com/download/)
+
+[Insomnia](https://insomnia.rest/download)
+
+[Postman](https://www.postman.com/downloads/)
+
+
+# VSCode
+
+## Instalação
+
+A instalação do VSCode pode ser feita através do link abaixo:
+
+Ao acessar o site, você deverá escolher para qual sistema operacional deseja realizar o download.
+
+Ao baixar o arquivo, clique nele e siga todo o passo a passo. 
+
+<aside>
+💡 Caso já tenha o VS Code instalado, garanta que ele está `atualizado`
+
+</aside>
+
+## Configuração Java no VS Code
+
+Para utilizar o Java no VSCode, é necessário instalar as extensões abaixo
+
+- **vscjava.vscode-java-pack**
+    - vscjava.vscode-java-debug
+    - vscjava.vscode-java-test
+    - vscjava.vscode-java-dependency
+    - vscjava.vscode-maven
+    - redhat.java
+- **vscjava.vscode-spring-initializr**
+- **vmware.vscode-spring-boot**
+- **vscjava.vscode-spring-boot-dashboard**
+
+# Recomendação
+
+Recomendamos que você deixe a opção `compact folders` do VS Code `desmarcada`
+
+1. Clique na engrenagem e depois em Settings
+        
+2. Na barra de pesquisa, pesquise por `compact folders` e `Desmarque` essa opção, dessa forma o explorador de arquivos ficará no modelo de árvore e você terá uma melhor visualização das pastas do projeto.
