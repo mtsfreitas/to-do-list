@@ -100,9 +100,6 @@ Se por acaso o Java não estiver sendo reconhecido no terminal, adicione o JAVA_
 
 7 - Abra o terminal e digite **java -version**
 
-
-Reference: https://efficient-sloth-d85.notion.site/Curso-de-Java-2408d11bfc3447e980fe9460b6293976
-
 # Maven
 
 Nessa documentação você terá o passo a passo para instalar o maven
@@ -229,3 +226,6 @@ Recomendamos que você deixe a opção `compact folders` do VS Code `desmarcada`
 1. Clique na engrenagem e depois em Settings
         
 2. Na barra de pesquisa, pesquise por `compact folders` e `Desmarque` essa opção, dessa forma o explorador de arquivos ficará no modelo de árvore e você terá uma melhor visualização das pastas do projeto.
+
+# Reference: https://efficient-sloth-d85.notion.site/Curso-de-Java-2408d11bfc3447e980fe9460b6293976
+
