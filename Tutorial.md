@@ -126,3 +126,58 @@ Nessa documentação você terá o passo a passo para instalar o maven
 7 - Clique no botão ****novo e**** adicione o caminho da pasta bin do maven****: `C:\maven\bin`**  e clique em ****ok****
 
 8 - Acesse o *terminal* e digite o comando *mvn .* O resultado esperado deverá ser o seguinte
+
+## Maven no Linux
+
+1-  Atualize os pacotes
+
+`sudo apt-get update`
+
+2 - Instale o maven com o seguinte comando
+
+`sudo apt-get -y install maven`
+
+O maven deverá ser instalado em um dos seguintes caminhos **/usr/share/maven**
+ ou **/etc/maven**
+.
+
+Para verificar se o maven foi instalado com sucesso, acessar o terminar e digitar
+
+`mvn -version`
+
+Isso irá mostrar a versão do maven instalada.
+
+## Maven no MacOS
+
+1 - [Clique aqui para baixar o Maven](https://dlcdn.apache.org/maven/maven-3/3.9.5/binaries/apache-maven-3.9.5-bin.tar.gz) ou [acesse essa página](https://maven.apache.org/download.cgi) e realize o download da versão mais recente do `Binary tar.gz archive`.
+
+2 - Abra o terminal, acesse a pasta de onde foi realizado o download do arquivo e execute o comando para extrair o arquivo: `tar -xvf NOME_COMPLETO_DO_ARQUIVO` (ex.: `tar -xvf apache-maven-3.9.5-bin.tar.gz`).
+
+<aside>
+⚠️ Extraindo dessa forma, a instalação do Maven ficará na pasta que você realizou o Download. Você *não pode* apagar essa pasta extraída pois se não a instalação não vai funcionar. Caso queira mudar de local, pode extrair em outra pasta ou arrastar a pasta após a extração (mas antes do próximo passo).
+</aside>
+
+
+3 - Agora, basta atribuir à sua variável ambiente `PATH` o local da pasta extraída do Maven. Basta abrir o seu arquivo de configuração do Shell (depende de qual você usa, se for ZSH é o `.zshrc` e se for o BASH é o `.bash_profile`) e alterar o `PATH`. Exemplo:
+
+
+```tsx
+export M2_HOME="~/Downloads/apache-maven-3.9.5"
+export PATH="${M2_HOME}/bin:${PATH}"
+```
+
+<aside>
+ℹ️ Comandos para abrir os arquivos de configuração do SHELL diretamente no VSCode: `code ~/.zshrc` para abrir o ZSH e `code ~/.bash_profile` para abrir o do BASH.
+</aside>
+
+
+4 - Pronto, agora feche o seu terminal, abra novamente e verifique se o comando `mvn -version` retorna a versão instalada do Maven. Exemplo:
+
+
+```tsx
+Apache Maven 3.9.5 (57804ffe001d7215b5e7bcb531cf83df38f93546)
+Maven home: /Users/username/Downloads/apache-maven-3.9.5
+Java version: 17.0.3.1, vendor: Oracle Corporation, runtime: /Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home
+Default locale: pt_BR, platform encoding: UTF-8
+OS name: "mac os x", version: "14.0", arch: "x86_64", family: "mac"
+```
